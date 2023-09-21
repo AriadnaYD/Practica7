@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dda15e;
+}
+.areaPrincipal{/*Así se define una clase*/
+    background-image: url(../img/fondo.jpg);/*agregar fondo de imagen al div*/
+    background-repeat: no-repeat;/*permitor o no permitir que se repida una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 0.7;/*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%;
+    /*Safari 3.0*/
+    -moz-background-size: 100% 100%;
+    /*Gecko 1.9.2 (firefox 3.6)*/
+    -o-background-size: 100% 100%;
+    /*opera 9.5*/
+    background-size: 100% 100%;
+    /* Gecko 2.0 (firefox 4.0) and other css3-compliant browsers*/
+}
+#encabezado{
+    background-color: #fefae0;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png"),url("../img/logo_abuelita.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+    background-size: 180px 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden; /* Evitar que los elementos flotantes se salgan del encabezado */
+}
+.piePagina{
+    width: 100%;/*ancho*/
+    height: 100px;/*alto*/
+    background: #e5e5e500;/*color de fondo*/
+    color: #283618;/*color de letra dentro de la clase*/
+    bottom: 0;/*Espacio de separación parte inferior*/
+    position: fixed;
+    left: 0;/*Alineación de contenidos a la izquierda*/
+}
+menu{/*identificador*/
+    height: 40px;
+    position: relative;
+    top: 200px;
+    color: #283618;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e09f3e;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #2b2d42;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #0000;
+}
+#datos{
+    width: 80%;
+    background-color: #fefae0;
+    height: 690px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
